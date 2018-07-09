@@ -12,7 +12,20 @@ using namespace std;
 Player::Player(){
 
 	cout << "Player created" << endl;
+
+
 }
+
+string Player::toString(){
+return "Person's name is " + name;
+}
+
+void Player::setName(string newName){
+
+	name = newName;
+
+}
+
 
 
 

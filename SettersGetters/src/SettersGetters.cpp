@@ -12,9 +12,12 @@ using namespace std;
 
 int main() {
 
-
-	Player joel;
-
+	Player player;
+	string name;
+	cout << "Enter your name " << endl;
+	cin >> name;
+	player.setName(name);
+	cout << player.toString() << endl;
 	return 0;
 }
 
