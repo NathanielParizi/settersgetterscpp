@@ -14,12 +14,15 @@ using namespace std;
 class Player {
 private:
 	string name;
+	string type;
 
 public:
 	Player();
 	string toString();
 	void setName(string newName);
-
+	string getName();
+	string getType();
+	void setType(string newType);
 
 };
 
